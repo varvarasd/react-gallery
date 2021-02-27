@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders Home content if isLoading is false 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <section
+      class="container"
+    >
+      <div
+        class="content__wrapper"
+      >
+        <div
+          class="image__wrapper"
+        >
+          <img
+            alt="some author current image"
+            class="image"
+            src="current/image/url"
+          />
+        </div>
+      </div>
+      <div
+        class="buttons__wrapper"
+      >
+        <button
+          class="button previous"
+          label="previous"
+          role="previous"
+        >
+          <svg
+            viewBox="0 0 50 80"
+            width="20px"
+          >
+            <polyline
+              fill="none"
+              points="45.63,75.8 0.375,38.087 45.63,0.375 "
+              stroke="#808080"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="5"
+            />
+          </svg>
+        </button>
+        <p
+          class="image__author"
+        >
+          By 
+          some author current image
+        </p>
+        <button
+          class="button next"
+          label="next"
+          role="next"
+        >
+          <svg
+            viewBox="0 0 50 80"
+            width="20px"
+          >
+            <polyline
+              fill="none"
+              points="0.375,0.375 45.63,38.087 0.375,75.8 "
+              stroke="#808080"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="5"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main>
+</div>
+`;

@@ -1,0 +1,32 @@
+.buttons__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 0.1px solid #cfcfcf;
+    border-top: none;
+}
+
+.button {
+    &.previous,
+    &.next {
+        width: 100%;
+        padding: 20px;
+        &:hover {
+            background-color: #f0f0f0;
+        }
+        &:focus {
+            outline: none;
+            background-color: #f0f0f0;
+        }
+    }
+    &.next {
+        &:focus {
+            border-left: 0.1px solid #cfcfcf;
+        }
+    }
+    &.previous {
+        &:focus {
+            border-right: 0.1px solid #cfcfcf;
+        }
+    }
+}

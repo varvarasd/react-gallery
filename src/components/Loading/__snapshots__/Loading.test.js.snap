@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders 1`] = `
+<h1
+  class="loading"
+>
+  Loading 
+  ...
+</h1>
+`;

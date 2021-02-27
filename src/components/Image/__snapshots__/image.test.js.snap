@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders 1`] = `
+<div
+  class="image__wrapper"
+>
+  <img
+    class="image"
+  />
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeftArrow renders with given width 1`] = `
+<svg
+  viewBox="0 0 50 80"
+  width="10px"
+>
+  <polyline
+    fill="none"
+    points="45.63,75.8 0.375,38.087 45.63,0.375 "
+    stroke="#808080"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+</svg>
+`;
+
+exports[`RightArrow renders with given width 1`] = `
+<svg
+  viewBox="0 0 50 80"
+  width="10px"
+>
+  <polyline
+    fill="none"
+    points="0.375,0.375 45.63,38.087 0.375,75.8 "
+    stroke="#808080"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+</svg>
+`;
