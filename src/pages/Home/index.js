@@ -34,7 +34,7 @@ const Home = () => {
 
     const contentElement = isLoading ? <Loading /> : mainContent;
 
-    const preloadImages = images.map(({url, author}) => <link key={author} rel="preload" as="image" href={url} />);
+    const preloadImages = images.map(({url, author}) => <link key={author} priority={true} as="image" href={url} />);
 
     return (
         <Layout

@@ -1,20 +1,20 @@
 import React, { Fragment } from 'react';
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { Home, NotFound } from '../pages';
 import ErrorBoundary from '../components/ErrorBoundary';
 
-function Routes() {
+function AppRoutes() {
     const { pathname } = useLocation();
     return (
         <Fragment>
             <ErrorBoundary key={pathname}>
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route component={NotFound} />
-                </Switch>
+                <Routes>
+                    <Route exact path='/' element={<Home />} />
+                    <Route element={<NotFound />} />
+                </Routes>
             </ErrorBoundary>
         </Fragment>
     );
 }
 
-export default Routes;
+export default AppRoutes;

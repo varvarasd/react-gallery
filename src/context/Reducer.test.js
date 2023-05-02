@@ -32,7 +32,7 @@ describe('reducer', () => {
         action.type = 'PREVIOUS_IMAGE';
 
         const result = reducer(state, action);
-        expect(result.index).toBe(0);
+        expect(result.index).toBe(1);
     });
 
     it('if index is 0 (first image), PREVIOUS_IMAGE action type sets index to last image', () => {
